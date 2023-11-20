@@ -7,7 +7,7 @@ def first_repeat(arr):
     repeated_char = ''
     for i in arr:
         if i not in hash_table:
-            hash_table[i] = arr.cou
+            hash_table[i] = arr.count(i)
         else:
             if not repeated_char:
                 repeated_char = i

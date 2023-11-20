@@ -8,7 +8,4 @@ def find_triangle_number(n):
     if n == 1: return 1
     return n + find_triangle_number(n - 1)
 
-for i in range(1, 8):
-    print(find_triangle_number(i))
-
 print(find_triangle_number(int(input())))
